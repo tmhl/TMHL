@@ -1,0 +1,87 @@
+/* login area display */
+
+.login-area {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #272733, #404046);
+}
+
+.login-area .white-space-area {
+    background: #ffffff;
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px #555555;
+    padding: 20px 50px;
+}
+
+.login-area .white-space-area .header {
+    font-family: 'Righteous';
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    color: #737386;
+    text-transform: uppercase;
+}
+
+.login-area .white-space-area .input-area {
+    padding: 0px 0px 5px 0px;
+}
+
+.login-area .white-space-area .input-area .el-input__prefix {
+    font-size: 16px;
+    top: 2px;
+    left: 10px;
+}
+
+.login-area .white-space-area .input-area .el-input--prefix .el-input__inner {
+    padding-left: 40px;
+}
+
+.login-area .white-space-area .login-btn {
+    transition: all .4s ease;
+    width: 100%;
+    text-transform: capitalize;
+    background: #5ac9ca;
+    color: #fff;
+    border: 1px solid #53aeaf;
+}
+
+.login-area .white-space-area .login-btn:hover {
+    background: #53aeaf;
+}
+
+.login-area .white-space-area .forget-btn {
+    transition: all .4s ease;
+    text-align: center;
+    margin: 10px 0 0 0;
+    text-transform: capitalize;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.login-area .white-space-area .forget-btn:hover {
+    color: #35353e;
+}
+
+/* login area display */
+
+/* develop wording display */
+
+.login-area .develop-word {
+    position: absolute;
+    bottom: -35px;
+    color: #737384;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    text-transform: capitalize;
+}
+
+/* develop wording display */

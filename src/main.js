@@ -64,6 +64,8 @@ Vue.use(vueHighcharts, {
 
 // prototype function define
 
+Vue.set(Vue.prototype, '_', _);
+
 Vue.prototype.$numeral = numeral;
 
 Vue.prototype.$api = function(val) {
@@ -102,9 +104,14 @@ Vue.prototype.$dropTips = function(msg, type) {
     };
 };
 
-Vue.prototype.$modalShow = function(name) {
+Vue.prototype.$popModal = function(name) {
     let self = this;
     self.$modal.show(name);
+};
+
+Vue.prototype.$closeModal = function(name) {
+    let self = this;
+    self.$modal.hide(name);
 };
 
 Vue.prototype.$notifyTips = function(topic, msg, type) {
