@@ -47,7 +47,7 @@ export default {
                 self.error.email = true;
                 self.error.emailMsg = 'user email can not be empty';
             } else {
-                self.error.email = false;
+                self.$closeModal(self.modalObj.forgetLoginInfo);
                 self.$dropTips('find request email has been sent, please check your email', 'success');
             }
         }
